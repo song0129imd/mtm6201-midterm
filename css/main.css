@@ -11,10 +11,10 @@ body{
     line-height: 1.5;
 }
 
+/* mobile view */
 .wrapper{
     margin: 0 auto;
     width:600px;
-
 }
 
 .w{
@@ -40,9 +40,6 @@ nav ul li{
 nav ul li a:hover {
     color: #73e03d;
     background-color: #fff;
-    
-    transform: scale(1.2);
-    transition: transform 1s;
 }
 
 .logo-image {
@@ -55,8 +52,7 @@ nav ul li a:hover {
 }
 
 .banner{
-   margin-left: 50px;
-    
+    margin-left: 50px;
     width: 500px;
     height: 200px;
 }
@@ -93,4 +89,64 @@ nav ul li a:hover {
 footer{
     padding: 60px;
     text-align: center;
+}
+
+/* desktop view */
+@media screen and (min-width: 600px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 1200px;
+    }
+
+    .logo-image{
+        margin: 20px 260px;
+    }
+
+    .main-nav{
+        display: flex;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .main-nav ul{
+        display: flex;
+    }
+    
+    nav ul li a{
+        display: block;
+        height: 50px;
+        padding: 0 90px;
+        line-height: 50px;
+    }
+    
+    .banner{
+        margin-left: 100px;
+        width: 1000px;
+        height:400px;
+    }
+
+    .o{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 80px;
+        max-width: 1200px;
+        height: 60px;
+        grid-template-areas: 
+        "box3 box1 box2"
+    }
+
+    .hours{
+        padding: 10px;
+        grid-area: box1;
+    }
+
+    .address{
+        padding: 10px;
+        grid-area: box2;
+    }
+
+    footer{
+        padding: 20px;
+        grid-area: box3;
+    }
 }
