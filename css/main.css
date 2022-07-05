@@ -1,0 +1,96 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width:600px;
+
+}
+
+.w{
+    padding: 10px;
+    height: 250px;
+    background-color: #73e03d;
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+nav ul li{
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #73e03d;
+    background-color: #fff;
+    
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+.logo-image {
+    padding: 20px 150px;
+}
+
+.promo{
+    position: relative;
+
+}
+
+.banner{
+   margin-left: 50px;
+    
+    width: 500px;
+    height: 200px;
+}
+
+.fa-angle-left{
+    position:absolute;
+    top:50%;
+    left:0;
+    color:#de5d83;
+}
+
+.fa-angle-right{
+    right:0;
+    position:absolute;
+    top:50%;
+    color:#de5d83;
+}
+
+.story{
+    padding: 60px;
+    text-align: center;
+}
+
+.hours{
+    padding: 60px;
+    text-align: center;
+}
+
+.address{
+    padding: 60px;
+    text-align: center;
+}
+
+footer{
+    padding: 60px;
+    text-align: center;
+}
