@@ -118,16 +118,17 @@ footer{
         max-width: 1200px;
         height: 60px;
         grid-template-areas: 
-        
+        "box10 box10 box10"
         "box1 box2 box3"
         "box4 box5 box6"
         "box7 box8 box9"
+        "box11 box11 box11"
 
     }
 
     .m{
         margin-top: 50px;
-        padding: 10px;
+        padding-left: 20px;
         grid-area: box10;
 
     }
@@ -184,6 +185,11 @@ footer{
         margin-top: 50px;
         padding: 10px;
         grid-area: box9;
+    }
+
+    footer{
+        padding: 10px;
+        grid-area: box11;
     }
 
    

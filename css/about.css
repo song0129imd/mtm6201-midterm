@@ -74,39 +74,6 @@ footer{
     text-align: center;
 }
 
-/* desktop view */
-@media screen and (min-width: 600px) {
-    .wrapper {
-        margin: 0 auto;
-        width: 1200px;
-    }
-
-    .logo-image{
-        margin: 20px 260px;
-    }
-
-    .main-nav{
-        display: flex;
-        padding: 20px;
-        margin: 20px;
-    }
-
-    .main-nav ul{
-        display: flex;
-    }
-    
-    nav ul li a{
-        display: block;
-        height: 50px;
-        padding: 0 90px;
-        line-height: 50px;
-    }
-
-    footer{
-        padding: 20px;
-        grid-area: box3;
-    }
-}
 
 /* desktop view */
 @media screen and (min-width: 600px) {
