@@ -1,0 +1,192 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* mobile view */
+.wrapper{
+    margin: 0 auto;
+    width:600px;
+}
+
+.w{
+    padding: 10px;
+    height: 250px;
+    background-color: #73e03d;
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+nav ul li{
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #73e03d;
+    background-color: #fff;
+}
+
+.logo-image {
+    padding: 20px 150px;
+}
+
+h4{
+    font-size: 1.5rem;
+    padding: 40px;
+}
+
+.bakery {
+    max-width: 500px;
+    height: 350px;
+    padding: 20px;
+}
+
+button{
+    cursor:pointer;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    background-color: #73e03d;
+    color:#fff;
+    font-size: 1rem;
+    margin: 20px;
+    padding: 20px;
+}
+
+.c{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.c img{
+    width: 100%;
+}
+
+footer{
+    padding: 60px;
+    text-align: center;
+}
+
+/* desktop view */
+@media screen and (min-width: 600px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 1200px;
+    }
+
+    .logo-image{
+        margin: 20px 260px;
+    }
+
+    .main-nav{
+        display: flex;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .main-nav ul{
+        display: flex;
+    }
+    
+    nav ul li a{
+        display: block;
+        height: 50px;
+        padding: 0 90px;
+        line-height: 50px;
+    }
+    
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 80px;
+        max-width: 1200px;
+        height: 60px;
+        grid-template-areas: 
+        
+        "box1 box2 box3"
+        "box4 box5 box6"
+        "box7 box8 box9"
+
+    }
+
+    .m{
+        margin-top: 50px;
+        padding: 10px;
+        grid-area: box10;
+
+    }
+
+    .strawberry{
+        margin-top: 50px;
+        padding: 10px;
+        grid-area: box1;
+    }
+
+    .mar{
+        margin-top: 50px;
+        padding: 10px;
+        grid-area: box2;
+    }
+
+    .cup-pur{
+        margin-top: 50px;
+        padding: 10px;
+        grid-area: box3;
+    }
+
+    .cup-str{
+        margin-top: 50px;
+        padding: 10px;
+        grid-area: box4;
+    }
+
+    .cup-van{
+        margin-top: 50px;
+        padding: 10px;
+        grid-area: box5;
+    }
+
+    .birthday{
+        margin-top: 50px;
+        padding: 10px;
+        grid-area: box6;
+    }
+
+    .red{
+        margin-top: 50px;
+        padding: 10px;
+        grid-area: box7;
+    }
+
+    .light{
+        margin-top: 50px;
+        padding: 10px;
+        grid-area: box8;
+    }
+
+    .wedding{
+        margin-top: 50px;
+        padding: 10px;
+        grid-area: box9;
+    }
+
+   
+
+    
+}
