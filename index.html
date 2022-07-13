@@ -29,9 +29,19 @@
     </header>
     <!-- main banner area of the website containing the image-->
     <div class="promo">
-        
+        <!-- optimization of picture -->
+        <picture>
+            <source srcset="images/cake-balls-cut-500_x_200.png,
+            images/cake-balls-cut-1000_x_400.png 2x,
+            images/cake-balls-cut-1500_x_600.png 3x" media="(max-width:600px)">
+
+            <source srcset="images/cake-balls-cut-1000_x_400.png,
+            images/cake-balls-cut-2000_x_800.png 2x,
+            images/cake-balls-cut-3000_x_1200.png 3x" media="(max-width:1200px)">
+
             <img class="banner" src="images/cake-balls-cut.png" alt="Cake Pop">
-       
+        </picture>
+            
         <!-- left caret -->
         <i class="fa-solid fa-angle-left"></i>
         <!-- right caret -->

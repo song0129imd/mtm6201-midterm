@@ -31,7 +31,15 @@
     <div class="o">
     <!-- desktop view will make the image shown on the left -->
     <h4 class="owner">About the Store Owner</h4>
-    <img src="images/storeowner.jpg" alt="storeowner photo" id="photo">
+    <picture>
+        <source srcset="images/storeowner-500_x_350.png,
+        images/storeowner-1000_x_700.png 2x,
+        images/images/storeowner-1500_x_1050.png 3x" media="(max-width:1200px)">
+
+        <img src="images/storeowner.jpg" alt="storeowner photo" id="photo">
+    </picture>
+    
+
     <p>
         The founder of the store named Saskya graduated from Le Cordon Bleu Ottawa 7 years ago. She had experience working with the top-notch hotels in Ottawa before her maternity leave. Then she started with catering to friends and family first. Slowly through words of mouth, she has grown into catering weddings and events which is why she wants to expand and open her own store. 
     </p>
