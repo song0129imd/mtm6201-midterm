@@ -42,13 +42,31 @@ nav ul li a:hover {
     background-color: #fff;
 }
 
+.main-nav a:hover {
+    transform: scale(1.2);
+}
+
+.main-nav a:active {
+    transform:scale(0.5);
+    transform: translate(20px, 20px);
+}
+
 .logo-image {
     padding: 20px 150px;
+}
+
+@keyframes scaleIn {
+    0% {transform:scale(0.2);}
+    85% {transform:scale(1.1);}
+    100% {transform:scale(1);}
 }
 
 h4{
     font-size: 1.5rem;
     padding: 40px;
+
+    animation-name: scaleIn;
+    animation-duration: 2s;
 }
 
 .bakery {
